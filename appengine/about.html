@@ -7,6 +7,7 @@
   <title>Sobre Blockly Games</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="common/common.css">
+  <link rel="stylesheet" href="common/edutictac-footer.css">
   <style>
 body {
   margin: 0;
@@ -100,20 +101,19 @@ h1 {
   line-height: 1.6;
 }
 
-footer {
-  border-top: 1px solid #e8eaed;
+.about-credit {
+  margin-top: 32px;
   color: #5f6368;
   font-size: 0.95rem;
-  padding: 24px 0 0;
 }
 
-footer a {
+.about-credit a {
   margin-right: 16px;
 }
 
 .edutictac-footer-logo {
   display: block;
-  margin: 0 auto 18px;
+  margin: 0 0 12px;
   width: 129px;
 }
 
@@ -170,13 +170,27 @@ footer a {
     <p id="info2"></p>
   </section>
 
-  <footer>
+  <div class="about-credit">
     <a class="edutictac-footer-logo" title="edutictac.es" href="https://edutictac.es">
       <img src="common/edutictac-logo.png" width="129" height="55" alt="edutictac.es">
     </a>
-    <a id="repoLink" href="https://github.com/sasogu/blockly-games">Codi d'Edutictac</a>
+    <a id="repoLink" href="https://github.com/Edutictac/blockly-games">Codi d'Edutictac</a>
     <a id="upstreamSiteLink" href="https://blockly.games/">Blockly Games original</a>
     <a id="upstreamRepoLink" href="https://github.com/google/blockly-games">Repositori original</a>
+  </div>
+
+  <footer class="ett-footer">
+    <p class="ett-footer__id">
+      <span class="ett-footer__brand">EduTicTac</span>
+      <span aria-hidden="true">·</span>
+      <span class="ett-footer__service">Blockly Games</span>
+    </p>
+    <div class="ett-footer__links">
+      <a id="footerHome" href="https://edutictac.es/">Inici</a>
+      <a id="footerPrivacy" href="https://edutictac.es/privacitat.html">Privacitat</a>
+      <a id="footerSource" href="https://git.edutictac.es/Edutictac/blockly-games">Codi font</a>
+      <a href="https://github.com/Edutictac/blockly-games/blob/master/LICENSE">Apache-2.0</a>
+    </div>
   </footer>
 </main>
 
@@ -191,6 +205,9 @@ const translations = {
     info1: 'Aquesta versió està mantinguda per Edutictac i es publica com a recurs educatiu obert. El projecte parteix de Blockly Games, creat per Google, i conserva el seu enfocament d\'aprenentatge autònom i progressiu.',
     info2: 'El codi d\'aquest desplegament és obert i es pot consultar al repositori d\'Edutictac. El projecte original continua disponible al web de Blockly Games.',
     repoLink: 'Codi d\'Edutictac',
+    footerHome: 'Inici',
+    footerPrivacy: 'Privacitat',
+    footerSource: 'Codi font',
     upstreamSiteLink: 'Blockly Games original',
     upstreamRepoLink: 'Repositori original',
     games: [
@@ -214,6 +231,9 @@ const translations = {
     info1: 'This version is maintained by Edutictac and published as an open educational resource. The project builds on Blockly Games, created by Google, and keeps its self-paced, progressive learning approach.',
     info2: 'The code for this deployment is open and available in the Edutictac repository. The original project remains available on the Blockly Games website.',
     repoLink: 'Edutictac code',
+    footerHome: 'Home',
+    footerPrivacy: 'Privacy',
+    footerSource: 'Source code',
     upstreamSiteLink: 'Original Blockly Games',
     upstreamRepoLink: 'Original repository',
     games: [
@@ -237,6 +257,9 @@ const translations = {
     info1: 'Esta versión está mantenida por Edutictac y se publica como recurso educativo abierto. El proyecto parte de Blockly Games, creado por Google, y conserva su enfoque de aprendizaje autónomo y progresivo.',
     info2: 'El código de este despliegue es abierto y se puede consultar en el repositorio de Edutictac. El proyecto original sigue disponible en la web de Blockly Games.',
     repoLink: 'Código de Edutictac',
+    footerHome: 'Inicio',
+    footerPrivacy: 'Privacidad',
+    footerSource: 'Código fuente',
     upstreamSiteLink: 'Blockly Games original',
     upstreamRepoLink: 'Repositorio original',
     games: [
@@ -268,6 +291,9 @@ document.getElementById('intro').textContent = t.intro;
 document.getElementById('info1').textContent = t.info1;
 document.getElementById('info2').textContent = t.info2;
 document.getElementById('repoLink').textContent = t.repoLink;
+document.getElementById('footerHome').textContent = t.footerHome;
+document.getElementById('footerPrivacy').textContent = t.footerPrivacy;
+document.getElementById('footerSource').textContent = t.footerSource;
 document.getElementById('upstreamSiteLink').textContent = t.upstreamSiteLink;
 document.getElementById('upstreamRepoLink').textContent = t.upstreamRepoLink;
 document.getElementById('games').setAttribute('aria-label', t.gamesLabel);
