@@ -78,6 +78,7 @@ Index.html.start = function(ij) {
   <div class="ett-footer__links">
     <a href="https://edutictac.es/">Inici</a>
     <a href="https://edutictac.es/privacitat.html">Privacitat</a>
+    <a href="https://edutictac.es/galetes.html">Galetes</a>
     <a href="https://git.edutictac.es/Edutictac/blockly-games">Codi font</a>
     <a href="https://github.com/Edutictac/blockly-games/blob/master/LICENSE">Apache-2.0</a>
   </div>
