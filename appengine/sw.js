@@ -10,7 +10,7 @@
  *
  * Bump CACHE on every deploy so old caches are dropped.
  */
-const CACHE = 'bg-v2';
+const CACHE = 'bg-v3';
 
 const PRECACHE = [
   './index.html',

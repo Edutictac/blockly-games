@@ -168,6 +168,18 @@ curl -I "https://blockly.edutictac.es/maze.html?lang=en"
 
 ## Notes
 
+### Teacher guides
+
+The home page links to Spanish and Valencian teacher guides, with a beginner
+route and one guide for each of the nine games. They include classroom steps,
+questions, common difficulties, observation criteria and a print layout.
+
+Edit `guides/es/*.md` and `guides/ca/*.md`, then run `make guides` (Python 3
+and pandoc). HTML is generated in `appengine/guias/`; `make index` also builds
+the guides. The educational text is CC BY-NC-SA 4.0, separately from the
+application's Apache-2.0 license. Test links, languages and layouts with
+`npx playwright test tests/guides.spec.js`.
+
 - Keep changes scoped to this fork unless syncing intentionally from upstream.
 - The production deployment is static nginx hosting, not Google App Engine.
 - Avoid committing generated or downloaded dependencies unless they are already

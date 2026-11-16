@@ -51,6 +51,7 @@ Index.html.start = function(ij) {
   <button class="secondary" id="clearData">${BlocklyGames.getMsg('Index.clearData', true)}</button>
 </p>
 <div id="actionPanel">
+  <a id="teacherGuides" href="guias/${ij.lang === 'ca' ? 'ca' : 'es'}/index.html">${BlocklyGames.getMsg('Index.teacherGuides', true)}</a>
   <button class="secondary" id="showDiploma">
     <span id="diplomaButtonIcon" aria-hidden="true"></span>
     <span>${BlocklyGames.getMsg('Index.diploma', true)}</span>

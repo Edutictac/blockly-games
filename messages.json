@@ -1146,5 +1146,9 @@
   "Gallery": {
     "desc": "Display of art created by user's programs.\n{{Identical|Gallery}}",
     "msg": "Gallery"
+  },
+  "Index.teacherGuides": {
+    "desc": "Link to beginner teacher guides, available in Spanish and Valencian.",
+    "msg": "Teacher guides (Spanish / Valencian)"
   }
 }

@@ -14,9 +14,14 @@ INTERPRETER_REF = 45d00b0c86e48cca1bb3af0f711bc4c0d626c359
 # Rules
 ##############################
 
+.PHONY: guides
+
 all: deps games
 
-index: common
+guides:
+	python3 build/guides.py
+
+index: common guides
 	python3 build/compress.py index
 
 puzzle: common
