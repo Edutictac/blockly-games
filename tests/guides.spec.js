@@ -7,6 +7,9 @@ for (const lang of ['es', 'ca']) {
     await page.goto(`/index.html?lang=${lang}`);
     const entry = page.locator('#teacherGuides');
     await expect(entry).toBeVisible();
+    await expect(page.locator('#subtitle #teacherGuides')).toHaveCount(1);
+    await expect(page.locator('#actionPanel a')).toHaveCount(0);
+    await expect(entry).toHaveText(lang === 'ca' ? 'Guies per al professorat' : 'Guías para el profesorado');
     await entry.click();
     await expect(page).toHaveURL(new RegExp(`/guias/${lang}/index.html$`));
     await expect(page.locator('h1')).toBeVisible();
@@ -28,6 +31,8 @@ for (const lang of ['es', 'ca']) {
       expect((await page.request.get(translated)).status()).toBe(200);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     }
+    await page.goto(`/about.html?lang=${lang}`);
+    await expect(page).toHaveURL(new RegExp(`/guias/${lang}/index.html$`));
   });
 }
 

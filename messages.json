@@ -253,7 +253,7 @@
   },
   "Index.moreInfo": {
     "desc": "Link to a description of Blockly Games, intended for parents and teachers.",
-    "msg": "Info for educators..."
+    "msg": "Teacher guides (Spanish / Valencian)"
   },
   "Index.startOver": {
     "desc": "Label next to button for deleting all the user's data.",
@@ -1146,9 +1146,5 @@
   "Gallery": {
     "desc": "Display of art created by user's programs.\n{{Identical|Gallery}}",
     "msg": "Gallery"
-  },
-  "Index.teacherGuides": {
-    "desc": "Link to beginner teacher guides, available in Spanish and Valencian.",
-    "msg": "Teacher guides (Spanish / Valencian)"
   }
 }

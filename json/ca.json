@@ -72,7 +72,7 @@
 	"Games.helpAbort": "Aquest nivell és extremadament difícil. El vols deixar i anar al següent joc? Sempre podràs tornar-hi més tard.",
 	"Index.clear": "Eliminar totes les solucions?",
 	"Index.subTitle": "Jocs pels programadors del futur.",
-	"Index.moreInfo": "Info per als educadors...",
+	"Index.moreInfo": "Guies per al professorat",
 	"Index.startOver": "Vols tornar a començar?",
 	"Index.clearData": "Esborrar totes les dades",
 	"Index.diploma": "Diploma",
@@ -295,6 +295,5 @@
 	"Pond.helpText4": "Aquest oponent és massa lluny per fer servir el canó (limitat a 70 metres). Fes servir, en canvi, la comanda 'nedar' per nedar cap a l'oponent i xocar-hi.",
 	"Pond.helpText5": "Aquest oponent és massa lluny per fer servir el canó. Però ets massa feble per sobreviure a un xoc. Neda cap a ell mentre la teva posició sigui menys de 50. Llavors atura't amb 'Aturar' i fes servir el canó.",
 	"Pond.helpText6": "Aquest oponent se n'anirà quan el toquis. Neda cap a ell si és fora d'abast (70 metres).",
-	"Gallery": "Galeria",
-	"Index.teacherGuides": "Guies per al professorat"
+	"Gallery": "Galeria"
 }

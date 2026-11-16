@@ -1,6 +1,6 @@
 {
 	"@metadata": {
-		"lastupdated": "2026-11-16 08:10:43.591650",
+		"lastupdated": "2026-11-16 08:53:27.577428",
 		"locale": "en",
 		"messagedocumentation": "qqq"
 	},
@@ -67,7 +67,7 @@
 	"Games.helpAbort": "This level is extremely difficult. Would you like to skip it and go onto the next game? You can always come back later.",
 	"Index.clear": "Delete all your solutions?",
 	"Index.subTitle": "Games for tomorrow's programmers.",
-	"Index.moreInfo": "Info for educators...",
+	"Index.moreInfo": "Teacher guides (Spanish / Valencian)",
 	"Index.startOver": "Want to start over?",
 	"Index.clearData": "Clear data",
 	"Index.diploma": "Diploma",
@@ -290,6 +290,5 @@
 	"Pond.helpText4": "This opponent is too far away to use the cannon (which has a limit of 70 meters). Instead, use the 'swim' command to start swimming towards the opponent and crash into it.",
 	"Pond.helpText5": "This opponent is also too far away to use the cannon. But you are too weak to survive a collision. Swim towards the opponent while your horizontal location is less than than 50. Then 'stop' and use the cannon.",
 	"Pond.helpText6": "This opponent will move away when it is hit. Swim towards it if it is out of range (70 meters).",
-	"Gallery": "Gallery",
-	"Index.teacherGuides": "Teacher guides (Spanish / Valencian)"
+	"Gallery": "Gallery"
 }

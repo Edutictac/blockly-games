@@ -158,29 +158,8 @@ a:hover > text {
 
 #actionPanel {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 14px;
   justify-content: center;
   margin: 10px 1em 8px;
-}
-
-#teacherGuides {
-  display: inline-block;
-  padding: 10px 18px;
-  min-height: 44px;
-  border: 2px solid #18566b;
-  border-radius: 999px;
-  color: #17495b;
-  background: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-}
-
-#teacherGuides:hover, #teacherGuides:focus-visible {
-  background: #e5f3f7;
-  outline: 2px solid #18566b;
-  outline-offset: 3px;
 }
 
 #showDiploma {
